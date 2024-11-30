@@ -15,7 +15,6 @@ public class Solution
             {
                 var middleNumber = needToValidString.Length / 2;
 
-
                 for (var i = 0; i <= middleNumber; i++)
                 {
                     if (needToValidString[i] == needToValidString[needToValidString.Length - 1 - i])
